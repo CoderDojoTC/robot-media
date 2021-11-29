@@ -1,0 +1,29 @@
+site_name: Robot Media
+nav:
+  - Robot Media Home: index.md
+  - CoderDojo Mentor Resources: https://coderdojotc.github.io/CoderDojoTC/
+  - Getting Started: getting-started.md
+site_description: 'A microsite with resources for robots including images and sounds. '
+site_author: 'Dan McCreary'
+repo_name: 'GitHub Repo'
+repo_url: 'https://github.com/CoderDojoTC/robot-media'
+
+# CoderDojo Standards from here down
+edit_uri: 'blob/master/docs'
+theme:
+  name: material
+  logo: img/coderdojo-logo.png
+    palette:
+    primary: '#642580'
+    accent: '#41BAC1'
+  custom_dir: 'theme'
+  include_sidebar: true
+plugins:
+  - search
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.details
+  - pymdownx.superfences
