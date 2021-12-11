@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 site_name: 'Robot Media'
 nav:
   - CoderDojo Mentor Resources: https://coderdojotc.github.io/CoderDojoTC/
@@ -8,15 +7,7 @@ nav:
     - Sounds: sounds.md
     
 
-site_description: 'Image and sound media for robots.  Used in CoderDojo Twin Cities couses.  All content licensed Creative Commons ShareAlike Attribution Noncommercial'
-=======
-site_name: Robot Media
-nav:
-  - Robot Media Home: index.md
-  - CoderDojo Mentor Resources: https://coderdojotc.github.io/CoderDojoTC/
-  - Getting Started: getting-started.md
-site_description: 'A microsite with resources for robots including images and sounds. '
->>>>>>> 8a660eadf6df72680c7c6eb6b7003a712be1236a
+site_description: 'Image and sound media for robots.  Used in CoderDojo Twin Cities courses.  All content licensed Creative Commons ShareAlike Attribution Noncommercial'
 site_author: 'Dan McCreary'
 repo_name: 'GitHub Repo'
 repo_url: 'https://github.com/CoderDojoTC/robot-media'
@@ -27,13 +18,8 @@ theme:
   name: material
   logo: img/coderdojo-logo.png
   palette:
-<<<<<<< HEAD
-    primary: '#642580'
-    accent: '#41BAC1'
-=======
       primary: '#642580'
       accent: '#41BAC1'
->>>>>>> 8a660eadf6df72680c7c6eb6b7003a712be1236a
   custom_dir: 'theme'
   include_sidebar: true
 plugins:
@@ -44,8 +30,4 @@ markdown_extensions:
   - pymdownx.highlight:
       linenums: true
   - pymdownx.details
-<<<<<<< HEAD
   - pymdownx.superfences
-=======
-  - pymdownx.superfences
->>>>>>> 8a660eadf6df72680c7c6eb6b7003a712be1236a
