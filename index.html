@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="A microsite with resources for robots including images and sounds. ">
+        <meta name="description" content="Image and sound media for robots.  Used in CoderDojo Twin Cities courses.  All content licensed Creative Commons ShareAlike Attribution Noncommercial">
       
       
       
@@ -201,6 +201,22 @@
 
   
   
+  
+    <li class="md-nav__item">
+      <a href="https://coderdojotc.github.io/CoderDojoTC/" class="md-nav__link">
+        CoderDojo Mentor Resources
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
     
   
   
@@ -256,26 +272,50 @@
   
   
   
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" >
+      
+      <label class="md-nav__link" for="nav-3">
+        Getting Started
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Getting Started" data-md-level="1">
+        <label class="md-nav__title" for="nav-3">
+          <span class="md-nav__icon md-icon"></span>
+          Getting Started
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
     <li class="md-nav__item">
-      <a href="https://coderdojotc.github.io/CoderDojoTC/" class="md-nav__link">
-        CoderDojo Mentor Resources
+      <a href="images.md" class="md-nav__link">
+        Images
       </a>
     </li>
   
 
-    
-      
-      
-      
-
-
+          
+            
   
   
   
     <li class="md-nav__item">
-      <a href="getting-started/" class="md-nav__link">
-        Getting Started
+      <a href="sounds.md" class="md-nav__link">
+        Sounds
       </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
     </li>
   
 
@@ -331,13 +371,13 @@
                 <h1 id="welcome-the-coderdojo-twin-cities-robot-media-repo">Welcome the CoderDojo Twin Cities Robot Media Repo</h1>
 <p>This repo contains media resources for Raspberry Pi Pico robots including images to display on the OLED displays and sound files for playing when the robots want to signal mode changes or movement events.</p>
 <h2 id="project-layout">Project layout</h2>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
-<span class="normal">2</span>
-<span class="normal">3</span>
-<span class="normal">4</span>
-<span class="normal">5</span>
-<span class="normal">6</span>
-<span class="normal">7</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>midi-files # Midi sound files
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2
+3
+4
+5
+6
+7</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>midi-files # Midi sound files
 mp3-files # MP3 files that will need conversion to play on the pico
 wav-8k # WAV files in 8K Hz 16-bit format that can be played directly on the Rapsberry Pi Pico using the wave libraries
 wav-files # General wav files in many formats
@@ -360,27 +400,6 @@ docs/
       
         
   <footer class="md-footer">
-    
-      <div class="md-footer-nav">
-        <nav class="md-footer-nav__inner md-grid">
-          
-          
-            <a href="getting-started/" title="Getting Started" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
-              <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
-                <span class="md-flex__ellipsis">
-                  <span class="md-footer-nav__direction">
-                    Next
-                  </span>
-                  Getting Started
-                </span>
-              </div>
-              <div class="md-flex__cell md-flex__cell--shrink">
-                <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
-              </div>
-            </a>
-          
-        </nav>
-      </div>
     
     <div class="md-footer-meta md-typeset">
       <div class="md-footer-meta__inner md-grid">
